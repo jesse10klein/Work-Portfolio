@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbah = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark shadow-lg" style={{'background-color': '#424242'}}>
+    <nav className="navbar navbar-expand-lg navbar-dark shadow-lg" style={{'backgroundColor': '#424242'}}>
       <span className="navbar-brand mb-0 h1">Jesse Klein</span>
       <button
         className="navbar-toggler"
@@ -25,14 +25,6 @@ const Navbah = () => {
             activeClassName="nav-item nav-link active"
           >
             Home
-          </NavLink>
-          <NavLink
-            exact
-            to="/about"
-            className="nav-item nav-link"
-            activeClassName="nav-item nav-link active"
-          >
-            About
           </NavLink>
           <NavLink
             exact

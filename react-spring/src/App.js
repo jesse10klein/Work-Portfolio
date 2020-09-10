@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Switch, Route, __RouterContext } from "react-router-dom";
 import { useTransition, animated, useSpring } from "react-spring";
-import { Home, About, Projects, Contact, Navbah, Card } from "./components";
+import { Home, Projects, Contact, Navbah, Card } from "./components";
 
 
 const App = () => {
@@ -27,12 +27,10 @@ const App = () => {
             <Switch location={item}>
               <Route exact path="/" 
               render={() => <Home  props={props} set={set} />} />
-              <Route exact path="/about" 
-              render={() => <About  props={props} set={set} />} />
               <Route exact path="/projects" 
-              render={() => <Projects  props={props} set={set} />} />
+              render={() => <Projects props={props} set={set}/>} />
               <Route exact path="/contact" 
-              render={() => <Contact  props={props} set={set} />} />
+              render={() => <Contact props={props} set={set} />} />
             </Switch>
           </animated.div>
         ))}

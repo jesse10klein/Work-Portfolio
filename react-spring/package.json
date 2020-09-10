@@ -10,7 +10,8 @@
     "react-dom": "16.8.6",
     "react-router-dom": "5.0.0",
     "react-scripts": "^3.4.3",
-    "react-spring": "8.0.19"
+    "react-spring": "8.0.19",
+    "react-use-gesture": "^7.0.16"
   },
   "devDependencies": {
     "typescript": "3.3.3"
