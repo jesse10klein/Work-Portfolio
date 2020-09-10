@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const Navbah = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg">
-      <span className="navbar-brand mb-0 h1">Project Portfolio</span>
+    <nav className="navbar navbar-expand-lg navbar-dark shadow-lg" style={{'background-color': '#424242'}}>
+      <span className="navbar-brand mb-0 h1">Jesse Klein</span>
       <button
         className="navbar-toggler"
         type="button"
@@ -24,7 +24,7 @@ const Navbah = () => {
             className="nav-item nav-link"
             activeClassName="nav-item nav-link active"
           >
-            PageOne
+            Home
           </NavLink>
           <NavLink
             exact
@@ -32,7 +32,7 @@ const Navbah = () => {
             className="nav-item nav-link"
             activeClassName="nav-item nav-link active"
           >
-            PageTwo
+            About
           </NavLink>
           <NavLink
             exact
@@ -40,7 +40,7 @@ const Navbah = () => {
             className="nav-item nav-link"
             activeClassName="nav-item nav-link active"
           >
-            PageThree
+            Projects
           </NavLink>
           <NavLink
             exact
@@ -48,7 +48,7 @@ const Navbah = () => {
             className="nav-item nav-link"
             activeClassName="nav-item nav-link active"
           >
-            PageFour
+            Contact
           </NavLink>
         </div>
       </div>

@@ -7,7 +7,7 @@ const trans1 = (x, y) => `translate3d(${-x / 7}px,${y / 7}px,0)`
 const trans2 = (x, y) => `translate3d(${x / 8 + 35}px,${-y / 8 - 230}px,0)`
 const trans3 = (x, y) => `translate3d(${-x / 6 - 250}px,${y / 6 - 200}px,0)`
 const trans4 = (x, y) => `translate3d(${x / 7}px,${-y / 7}px,0)`
-const trans5 = (x, y) => `translate3d(${x / 3.5}px,${-y / 3.5}px,0)`
+const trans5 = (x, y) => `translate3d(${x / 8}px,${-y / 8}px,0)`
 
 const Card = ({ props, set }) => {
 
