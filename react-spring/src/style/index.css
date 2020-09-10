@@ -1,0 +1,27 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.pageContent {
+  width: 100%;
+  position: absolute;
+  opacity: 0.6;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  width: 80vw;
+  height: 70vh;
+  background-color: white;
+  border-radius: 15px;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+.navbar {
+  z-index: 100;
+}
