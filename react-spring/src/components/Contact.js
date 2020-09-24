@@ -73,19 +73,19 @@ const Contact = ({set, props}) => {
         <div id="contactPage">
           <div id="contactInfo">
           <a href="https://github.com/jesse10klein" target="_blank" rel="noopener noreferrer" className="icon hoverIcon">
-            <img src="./github-icon.png" alt="couldn't be loaded"></img>
+            <img src="/github-icon.png" alt="couldn't be loaded"></img>
             <h2>Github</h2>
           </a>
           <a href="https://www.linkedin.com/in/jesse-klein-8a5794109/" target="_blank" rel="noopener noreferrer" className="icon hoverIcon">
-            <img src="./linkedin.png" alt="couldn't be loaded"></img>
+            <img src="/linkedin.png" alt="couldn't be loaded"></img>
             <h2>LinkedIn</h2>
           </a>
           <div className="icon staticIcon">
-            <img src="./gmail.png" alt="couldn't be loaded"></img>
+            <img src="/gmail.png" alt="couldn't be loaded"></img>
             <h2>jesse10klein@gmail.com</h2>
           </div>
           <div className="icon staticIcon">
-            <img src="./telephone.png" alt="couldn't be loaded"></img>
+            <img src="/telephone.png" alt="couldn't be loaded"></img>
             <h2>0480 298 213</h2>
           </div>
           
@@ -111,7 +111,7 @@ const Contact = ({set, props}) => {
         
         <div id="emailSent">
           <h1>Your response is on its way!</h1>
-          <img id="mail-sending" src="./mail.gif" alt="couldn't be loaded"></img>
+          <img id="mail-sending" src="mail.gif" alt="couldn't be loaded"></img>
           <h3>I'll get back to you as soon as possible</h3>
         </div>
       }
