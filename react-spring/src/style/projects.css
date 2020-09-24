@@ -14,7 +14,7 @@
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .project1 {
@@ -72,8 +72,55 @@ a {
   border: 5px solid black;
 }
 
+@media only screen and (max-width: 1200px) {
+  .projectImg {
+    width: 200px;
+    height: 270px;
+    padding: 20px;
+  }
+
+  .projectCard img {
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .projectCard h1 {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .projectCard p {
+    font-size: 12px;
+  } 
+}
+
+
+
 @media only screen and (max-width: 600px) {
   .projectImg {
-    background-size: 100px 100px;
+    width: 150px;
+    height: 220px;
+    padding: 20px;
   }
+
+  .projectCard img {
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .projectCard h1 {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .projectCard p {
+    font-size: 11px;
+  }
+  
 }

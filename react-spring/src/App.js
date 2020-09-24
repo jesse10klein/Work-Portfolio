@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Switch, Route, __RouterContext } from "react-router-dom";
+import { Switch, Route, __RouterContext } from "react-router";
 import { useTransition, animated, useSpring } from "react-spring";
 import { Home, Projects, Contact, Navbah, Card } from "./components";
 

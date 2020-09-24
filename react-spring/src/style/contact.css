@@ -1,0 +1,223 @@
+
+
+#contactPage {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  
+  width: 60vw;
+  height: 60vh;
+  margin-left: 20vw;
+  margin-top: 15vh;
+  background-color: white;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+#contactImage {
+  width: 200px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+textarea {
+  height: 100px;
+  resize: none !important;
+}
+
+.spanAnimationText {
+  height: 100px;
+  margin-left: -200px;
+  width: 200px;
+  background-color: black;
+}
+
+.animation {
+  width: 25px;
+  height: 25px;
+}
+
+input, textarea {
+  background-color: #E6E6E6;
+  width: 200px;
+  margin: auto !important;
+  border: none;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+textarea {
+  width: 200px;
+  height: 100px;
+  border: none;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+#submitButton {
+  width: 110px;
+  margin: auto;
+  border: none;
+  padding: 0px;
+  background-color: #424242;
+  color: white;
+  border-radius: 20px;
+  height: 30px;
+}
+
+
+.icon img {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.icon {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none !important;
+}
+
+.staticIcon:hover {
+  cursor: default;
+}
+
+.hoverIcon:hover h2 {
+  font-size: 34px;
+  transition: 0.3s;
+}
+
+.hoverIcon:hover img {
+  width: 51px;
+  height: 51px;
+  transition: 0.3s;
+}
+
+.icon h2 {
+  color: black;
+  margin-top: 3px;
+}
+
+#contactInfo, #form {
+  max-height: 90%;
+  margin: 60px;
+}
+
+#form {
+  text-align: center;
+  width: 400px;
+}
+
+.staticIcon h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1100px) {
+  #contactInfo {
+    display: none;
+  }
+
+  #form {
+    width: 300px;
+    margin: auto;
+  }
+}
+
+
+#emailSent h1 {
+  margin-top: 40px !important;
+  z-index: 2;
+}
+
+#emailSent h3 {
+  margin-bottom: 40px !important;
+}
+
+#mail-sending {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: -30px;
+  z-index: 1;
+  object-fit: contain;
+}
+
+#emailSent {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  
+  width: 60vw;
+  height: 60vh;
+  margin-left: 20vw;
+  margin-top: 15vh;
+  background-color: #FCFEFC;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-height: 550px) {
+  #contactInfo {
+    display: none;
+  }
+
+  #form {
+    width: 300px;
+    margin: auto;
+    overflow-y: auto;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  #emailSent h1{
+    font-size: 22px;
+  }
+
+  #emailSent h3 {
+    font-size: 13px;
+  }
+
+  #mail-sending {
+    width: 150px;
+    height: 150px;
+  }
+
+  #emailSent {
+    height: 30vh;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #emailSent h1{
+    font-size: 15px;
+  }
+
+  #emailSent h3 {
+    font-size: 11px;
+  }
+
+  #mail-sending {
+    width: 150px;
+    height: 150px;
+  }
+
+  #emailSent {
+    height: 30vh;
+  }
+}

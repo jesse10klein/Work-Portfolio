@@ -84,3 +84,16 @@ h1 {
     font-size: 30px !important;
   }
 }
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+.navbar {
+  justify-content: space-between !important;
+}
+
+.nav-link {
+  padding-right: .5rem !important;
+  padding-left: .5rem !important;
+}
