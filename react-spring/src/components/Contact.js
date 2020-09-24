@@ -68,7 +68,7 @@ const Contact = ({set, props}) => {
   return (
     <>
       {
-        emailSent
+        !emailSent
         ?  
         <div id="contactPage">
           <div id="contactInfo">
