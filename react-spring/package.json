@@ -4,7 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
-  "homepage": "http://jesse10klein.github.io/react-spring",
+  "homepage": "http://jesse10klein.github.io/Work-Portfolio",
   "dependencies": {
     "bootstrap": "4.3.1",
     "emailjs-com": "^2.6.3",
