@@ -2,7 +2,13 @@
 body {
   margin: 0px;
   padding: 0px;
-  overflow: hidden;
+}
+
+#contentWrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden !important;
+  position: fixed;
 }
 
 .pageContent {

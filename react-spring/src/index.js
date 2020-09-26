@@ -7,8 +7,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./style/index.css"
 
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+  <div id="contentWrapper">
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </div>,
   document.getElementById("root")
 );
