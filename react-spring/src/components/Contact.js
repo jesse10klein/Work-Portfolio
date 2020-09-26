@@ -5,6 +5,7 @@ import gmail from '../images/gmail.png'
 import github from '../images/github-icon.png'
 import linkedin from '../images/linkedin.png'
 import phone from '../images/telephone.png'
+import mail from '../images/mail.gif'
 
 const Contact = ({set, props}) => {
 
@@ -115,7 +116,7 @@ const Contact = ({set, props}) => {
         
         <div id="emailSent">
           <h1>Your response is on its way!</h1>
-          <img id="mail-sending" src="mail.gif" alt="couldn't be loaded"></img>
+          <img id="mail-sending" src={mail} alt="couldn't be loaded"></img>
           <h3>I'll get back to you as soon as possible</h3>
         </div>
       }
