@@ -48,7 +48,7 @@ input, textarea {
   width: 200px;
   margin: auto !important;
   border: none;
-  border-radius: 15px;
+  border-radius: 8px;
   padding: 5px;
 }
 
@@ -69,7 +69,7 @@ input:focus, textarea:focus {
   padding: 0px;
   background-color: #424242;
   color: white;
-  border-radius: 20px;
+  border-radius: 8px;
   height: 30px;
 }
 

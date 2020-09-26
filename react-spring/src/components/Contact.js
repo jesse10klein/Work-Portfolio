@@ -1,6 +1,10 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import '../style/contact.css'
+import gmail from '../images/gmail.png'
+import github from '../images/github-icon.png'
+import linkedin from '../images/linkedin.png'
+import phone from '../images/telephone.png'
 
 const Contact = ({set, props}) => {
 
@@ -73,19 +77,19 @@ const Contact = ({set, props}) => {
         <div id="contactPage">
           <div id="contactInfo">
           <a href="https://github.com/jesse10klein" target="_blank" rel="noopener noreferrer" className="icon hoverIcon">
-            <img src="/github-icon.png" alt="couldn't be loaded"></img>
+            <img src={github} alt="couldn't be loaded"></img>
             <h2>Github</h2>
           </a>
           <a href="https://www.linkedin.com/in/jesse-klein-8a5794109/" target="_blank" rel="noopener noreferrer" className="icon hoverIcon">
-            <img src="/linkedin.png" alt="couldn't be loaded"></img>
+            <img src={linkedin} alt="couldn't be loaded"></img>
             <h2>LinkedIn</h2>
           </a>
           <div className="icon staticIcon">
-            <img src="/gmail.png" alt="couldn't be loaded"></img>
+            <img src={gmail} alt="couldn't be loaded"></img>
             <h2>jesse10klein@gmail.com</h2>
           </div>
           <div className="icon staticIcon">
-            <img src="/telephone.png" alt="couldn't be loaded"></img>
+            <img src={phone} alt="couldn't be loaded"></img>
             <h2>0480 298 213</h2>
           </div>
           

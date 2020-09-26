@@ -3,6 +3,10 @@ import Project from './Project'
 import { animated, useSpring } from 'react-spring'
 import '../style/projects.css';
 
+import video from '../images/video.PNG';
+import sorting from '../images/sorting.PNG';
+import audio from '../images/audio.PNG'
+
 const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2]
 const trans1 = (x, y) => `translate3d(${-x / 7}px,${y / 7}px,0)`
 const trans2 = (x, y) => `translate3d(${x / 8}px,${-y / 8}px,0)`
@@ -11,19 +15,19 @@ const transitions = [trans1, trans2, trans3];
 
 const projects = [
   {
-    imageURL: 'sorting.png',
+    imageURL: sorting,
     title: 'Sorting Algorithm Visualizer',
     description: 'A sorting algorithm visualizer made using HTML canvas',
     webURL: 'https://github.com/jesse10klein/Sorting-Visualiser'
   },
   {
-    imageURL: 'video.png',
+    imageURL: video,
     title: 'Vibe Video Viewing Platform',
     description: 'A video platform made with Node.js, Express.js and PUG',
     webURL: 'https://github.com/jesse10klein/VIBE-Video-Platform'
   },
   {
-    imageURL: 'audio.png',
+    imageURL: audio,
     title: 'Audio Visualizer',
     description: 'An audio visualizer made using the Spotify API and Javascript',
     webURL: 'https://github.com/jesse10klein/audio-visualiser'
