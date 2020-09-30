@@ -7,10 +7,11 @@
   will-change: transform;
   position: absolute;
   object-fit: scale-down;
-  width: 300px;
-  height: 450px;
-  padding: 50px;
+  width: 250px;
+  height: 300px;
+  padding: 20px;
   background-color: white;
+  text-align: center;
 }
 
 a {
@@ -18,18 +19,28 @@ a {
 }
 
 .project1 {
-  left: 8%;
-  top: 10%;
+  left: 13%;
+  top: 45%;
 }
 
 .project2 {
-  left: 43%;
-  top: 25%;
+  left: 33%;
+  top: 15%;
 }
 
 .project3 {
   left: 74%;
   top: 10%;
+}
+
+.project4 {
+  left: 60%;
+  top: 40%;
+}
+
+.project5 {
+  left: 5%;
+  top: 5%;
 }
 
 
@@ -50,8 +61,8 @@ a {
 }
 
 .projectCard img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   margin-bottom: 10px;
 }
@@ -66,9 +77,9 @@ a {
 }
 
 .selected {
-  padding: 40px;
-  width: 300px;
-  height: 450px;
+  padding: 10px;
+  width: 250px;
+  height: 300px;
   border: 5px solid black;
 }
 
@@ -121,6 +132,30 @@ a {
   
   .projectCard p {
     font-size: 11px;
+  }
+
+  .project1 {
+    transform: translate3d(0px, 0px, 0px) !important;
+    left: 5%;
+    top: 10%;
+  }
+  
+  .project2 {
+    transform: translate3d(0px, 0px, 0px) !important;
+    left: 55%;
+    top: 10%;
+  }
+  
+  .project3 {
+    transform: translate3d(0px, 0px, 0px) !important;
+    left: 5%;
+    top: 50%;
+  }
+  
+  .project4 {
+    transform: translate3d(0px, 0px, 0px) !important;
+    left: 55%;
+    top: 50%;
   }
   
 }

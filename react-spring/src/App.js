@@ -1,8 +1,7 @@
 import React, { useContext } from "react";
 import { Switch, Route, __RouterContext } from "react-router";
 import { useTransition, animated, useSpring } from "react-spring";
-import { Home, Projects, Contact, Navbah, Card } from "./components";
-
+import { Home, Projects, Contact, Navbah, Card, ProjectPage } from "./components";
 
 const App = () => {
 
@@ -29,6 +28,7 @@ const App = () => {
               render={() => <Home  props={props} set={set} />} />
               <Route exact path="/projects" 
               render={() => <Projects props={props} set={set}/>} />
+              <Route path="/projects/:id" render={({match}) => <ProjectPage props={match} />} />
               <Route exact path="/contact" 
               render={() => <Contact props={props} set={set} />} />
             </Switch>
