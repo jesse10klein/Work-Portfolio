@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import { animated, useSprings } from "react-spring";
 
-const words = ["node.js", "express.js", "react.js", "ajax", "bootstrap", "mongodb, sequelize, SQLite"];
+const words = ["node.js", "express.js", "react.js", "ajax", "bootstrap", "mongodb", "sequelize", "SQLite"];
 
 const Home = ({set, props}) => {
 
