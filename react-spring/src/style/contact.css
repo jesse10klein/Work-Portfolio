@@ -169,9 +169,28 @@ input:focus, textarea:focus {
   text-align: center;
 }
 
+@media only screen and (max-width: 450px) {
+
+  input, textarea {
+    width: 150px;
+  }
+
+  #contactPage {
+    
+    width: 80vw;
+    height: 80vh;
+    margin-left: 6vw;
+    margin-top: 5vh;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+  }
+
+}
 
 
-@media only screen and (max-height: 550px) {
+
+@media only screen and (max-height: 600px) {
   #contactInfo {
     display: none;
   }
@@ -180,6 +199,10 @@ input:focus, textarea:focus {
     width: 300px;
     margin: auto;
     overflow-y: auto;
+  }
+
+  .input {
+    width: 150px;
   }
 }
 

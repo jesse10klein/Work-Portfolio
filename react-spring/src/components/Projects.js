@@ -50,24 +50,6 @@ const Projects = ({props, set}) => {
 
   const [propsa, seta] = useSpring(() => ({ xy: [0, 0], config: { mass: 10, tension: 550, friction: 140 } }))
 
-  const handleMouseEnter = (e) => {
-    console.log(e.target);
-    const children = e.target.parentElement.children;
-    for (let i = 0; i < children.length; i++) {
-      children[i].classList.remove("selected");
-    }
-    if (e.target.classList.contains("projectImg")) {
-      e.target.classList.add("selected");
-    }
-  }
-
-  const handleMouseLeave = (e) => {
-    
-    if (e.target.classList.contains("projectImg")) {
-      e.target.classList.remove("selected");
-    }
-  }
-
   const handleMouseMove = ({ clientX: x, clientY: y }) => {
     if (window.innerWidth > 600) seta({ xy: calc(x, y) });
   }
@@ -79,9 +61,7 @@ const Projects = ({props, set}) => {
       {
         projects.map((project, index) => {
           return (
-            <animated.div className={`projectImg project${index+1}`} style={{ transform: propsa.xy.interpolate(transitions[index])}} key={index} 
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}>
+            <animated.div className={`projectImg project${index+1}`} style={{ transform: propsa.xy.interpolate(transitions[index])}} key={index} >
               <Link to={`/projects/${index}`}>
                 <Project 
                 imageURL={project.imageURL}

@@ -27,22 +27,17 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
   margin-left: 20px;
   text-align: center;
 }
 
-#links {
-  position: relative;
-  top: 40px;
-}
 
 .link {
   display: flex;
   flex-direction: row;
   color: black;
   text-decoration: none;
-  margin-top: 15px;
 }
 
 .link h3 {
@@ -56,6 +51,14 @@
   width: 40px;
   height: 40px;
   object-fit: contain;
+}
+
+.inactive {
+  opacity: 0.5;
+}
+
+.inactive h3:hover {
+  cursor: default;
 }
 
 #technologiesList {

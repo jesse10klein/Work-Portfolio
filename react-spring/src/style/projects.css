@@ -76,7 +76,7 @@ a {
   font-size: 15px;
 }
 
-.selected {
+.projectImg:hover {
   padding: 10px;
   width: 250px;
   height: 300px;
@@ -88,6 +88,13 @@ a {
     width: 200px;
     height: 270px;
     padding: 20px;
+  }
+
+  .projectImg:hover {
+    padding: 10px;
+    width: 200px;
+    height: 270px;
+    border: 5px solid black;
   }
 
   .projectCard img {
@@ -136,26 +143,32 @@ a {
 
   .project1 {
     transform: translate3d(0px, 0px, 0px) !important;
-    left: 5%;
-    top: 10%;
+    left: 0%;
+    top: 0%;
   }
   
   .project2 {
     transform: translate3d(0px, 0px, 0px) !important;
-    left: 55%;
-    top: 10%;
+    left: 60%;
+    top: 0%;
   }
   
   .project3 {
     transform: translate3d(0px, 0px, 0px) !important;
-    left: 5%;
-    top: 50%;
+    left: 0%;
+    top: 60%;
   }
   
   .project4 {
     transform: translate3d(0px, 0px, 0px) !important;
-    left: 55%;
-    top: 50%;
+    left: 60%;
+    top: 60%;
+  }
+
+  .project5 {
+    transform: translate3d(0px, 0px, 0px) !important;
+    left: 30%;
+    top: 30%;
   }
   
 }
