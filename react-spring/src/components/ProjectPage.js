@@ -33,7 +33,7 @@ const projectInfo = [
       {image: javascript, name: "JavaScript"}
     ],
     githubURL: 'https://github.com/jesse10klein/Sorting-Visualiser',
-    demoURL: ''
+    demoURL: 'https://lucid-booth-63bea2.netlify.app/'
   },
   {
     imageURL: video,
@@ -72,7 +72,7 @@ const projectInfo = [
       {image: css, name: "CSS"}
     ],
     githubURL: 'https://github.com/jesse10klein/serafinassoiree',
-    demoURL: ''
+    demoURL: 'http://serafinassoiree.ap-southeast-2.elasticbeanstalk.com/'
   },
   {
     imageURL: portfolio,
